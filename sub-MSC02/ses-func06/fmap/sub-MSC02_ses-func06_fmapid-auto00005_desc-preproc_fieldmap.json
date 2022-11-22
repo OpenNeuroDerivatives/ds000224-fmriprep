@@ -1,0 +1,15 @@
+{
+  "AnatomicalReference": "sub-MSC02_ses-func06_fmapid-auto00005_desc-magnitude_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-MSC02_ses-func06_fmapid-auto00005_desc-coeff0_fieldmap.nii.gz",
+    "sub-MSC02_ses-func06_fmapid-auto00005_desc-coeff1_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "auto_00005",
+  "IntendedFor": [],
+  "RawSources": [
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds000224-fmriprep/sourcedata/raw/sub-MSC02/ses-func06/fmap/sub-MSC02_ses-func06_phasediff.nii.gz",
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds000224-fmriprep/sourcedata/raw/sub-MSC02/ses-func06/fmap/sub-MSC02_ses-func06_magnitude1.nii.gz",
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds000224-fmriprep/sourcedata/raw/sub-MSC02/ses-func06/fmap/sub-MSC02_ses-func06_magnitude2.nii.gz"
+  ],
+  "Units": "Hz"
+}
