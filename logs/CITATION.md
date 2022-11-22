@@ -9,7 +9,7 @@ which is based on *Nipype* 1.8.5
 
 Preprocessing of B<sub>0</sub> inhomogeneity mappings
 
-: A total of 10 fieldmaps were found available within the input
+: A total of 11 fieldmaps were found available within the input
 BIDS structure for this particular subject.
 A *B<sub>0</sub>* nonuniformity map (or *fieldmap*) was estimated from the
 phase-drift map(s) measure with two consecutive GRE (gradient-recalled echo)
@@ -45,7 +45,7 @@ The following templates were selected for spatial normalization:
 
 Functional data preprocessing
 
-: For each of the 80 BOLD runs found per subject (across all
+: For each of the 79 BOLD runs found per subject (across all
 tasks and sessions), the following preprocessing was performed.
 First, a reference volume and its skull-stripped version were generated
  using a custom
