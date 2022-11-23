@@ -1,1 +1,1 @@
-../../../../.git/annex/objects/KV/v9/MD5E-s380--bb59b8420732ae2a392915008ba53617.txt/MD5E-s380--bb59b8420732ae2a392915008ba53617.txt
+/annex/objects/MD5E-s380--bb59b8420732ae2a392915008ba53617.txt
