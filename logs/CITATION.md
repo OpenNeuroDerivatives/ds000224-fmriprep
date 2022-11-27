@@ -54,11 +54,9 @@ Head-motion parameters with respect to the BOLD reference
 (transformation matrices, and six corresponding rotation and translation
 parameters) are estimated before any spatiotemporal filtering using
 `mcflirt` [FSL 6.0.5.1:57b01774, @mcflirt].
-The BOLD time-series (including slice-timing correction when applied)
-were resampled onto their original, native space by applying
-the transforms to correct for head-motion.
-These resampled BOLD time-series will be referred to as *preprocessed
-BOLD in original space*, or just *preprocessed BOLD*.
+The estimated *fieldmap* was then aligned with rigid-registration to the target
+EPI (echo-planar imaging) reference run.
+The field coefficients were mapped on to the reference EPI using the transform.
 The BOLD reference was then co-registered to the T1w reference using
 `bbregister` (FreeSurfer) which implements boundary-based registration [@bbr].
 Co-registration was configured with six degrees of freedom.
