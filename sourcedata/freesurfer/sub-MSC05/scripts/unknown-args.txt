@@ -1,1 +1,1 @@
-/annex/objects/MD5E-s380--bbb55be889d761cb02c492107940ee5e.txt
+../../../../.git/annex/objects/pf/GW/MD5E-s380--bbb55be889d761cb02c492107940ee5e.txt/MD5E-s380--bbb55be889d761cb02c492107940ee5e.txt
