@@ -9,7 +9,7 @@ which is based on *Nipype* 1.8.5
 
 Preprocessing of B<sub>0</sub> inhomogeneity mappings
 
-: A total of 11 fieldmaps were found available within the input
+: A total of 10 fieldmaps were found available within the input
 BIDS structure for this particular subject.
 A *B<sub>0</sub>* nonuniformity map (or *fieldmap*) was estimated from the
 phase-drift map(s) measure with two consecutive GRE (gradient-recalled echo)
@@ -18,7 +18,7 @@ The corresponding phase-map(s) were phase-unwrapped with `prelude` (FSL 6.0.5.1:
 
 Anatomical data preprocessing
 
-: A total of 4 T1-weighted (T1w) images were found within the input
+: A total of 5 T1-weighted (T1w) images were found within the input
 BIDS dataset.
 All of them were corrected for intensity non-uniformity (INU)
 with `N4BiasFieldCorrection` [@n4], distributed with ANTs 2.3.3 [@ants, RRID:SCR_004757].
@@ -30,7 +30,7 @@ white-matter (WM) and gray-matter (GM) was performed on
 the brain-extracted T1w using `fast` [FSL 6.0.5.1:57b01774, RRID:SCR_002823,
 @fsl_fast].
 A T1w-reference map was computed after registration of
-4 T1w images (after INU-correction) using
+5 T1w images (after INU-correction) using
 `mri_robust_template` [FreeSurfer 7.2.0, @fs_template].
 Brain surfaces were reconstructed using `recon-all` [FreeSurfer 7.2.0,
 RRID:SCR_001847, @fs_reconall], and the brain mask estimated
@@ -45,7 +45,7 @@ The following templates were selected for spatial normalization:
 
 Functional data preprocessing
 
-: For each of the 79 BOLD runs found per subject (across all
+: For each of the 80 BOLD runs found per subject (across all
 tasks and sessions), the following preprocessing was performed.
 First, a reference volume and its skull-stripped version were generated
  using a custom
