@@ -1,0 +1,25 @@
+{
+  "AnatomicalReference": "sub-MSC07_ses-func10_fmapid-auto00009_desc-magnitude_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-MSC07_ses-func10_fmapid-auto00009_desc-coeff0_fieldmap.nii.gz",
+    "sub-MSC07_ses-func10_fmapid-auto00009_desc-coeff1_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "auto_00009",
+  "IntendedFor": [
+    "ses-func10/func/sub-MSC07_ses-func10_task-glasslexical_run-01_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-glasslexical_run-02_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-glasslexical_run-03_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-memoryfaces_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-memoryscenes_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-memorywords_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-motor_run-01_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-motor_run-02_bold.nii.gz",
+    "ses-func10/func/sub-MSC07_ses-func10_task-rest_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds000224-fmriprep/sourcedata/raw/sub-MSC07/ses-func10/fmap/sub-MSC07_ses-func10_phasediff.nii.gz",
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds000224-fmriprep/sourcedata/raw/sub-MSC07/ses-func10/fmap/sub-MSC07_ses-func10_magnitude1.nii.gz",
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds000224-fmriprep/sourcedata/raw/sub-MSC07/ses-func10/fmap/sub-MSC07_ses-func10_magnitude2.nii.gz"
+  ],
+  "Units": "Hz"
+}
