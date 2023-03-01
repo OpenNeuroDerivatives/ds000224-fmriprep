@@ -1,0 +1,9 @@
+{
+  "RawSources": [
+    "sub-MSC05/ses-struct01/anat/sub-MSC05_ses-struct01_run-01_T1w.nii.gz",
+    "sub-MSC05/ses-struct01/anat/sub-MSC05_ses-struct01_run-02_T1w.nii.gz",
+    "sub-MSC05/ses-struct02/anat/sub-MSC05_ses-struct02_run-01_T1w.nii.gz",
+    "sub-MSC05/ses-struct02/anat/sub-MSC05_ses-struct02_run-02_T1w.nii.gz"
+  ],
+  "Type": "Brain"
+}
